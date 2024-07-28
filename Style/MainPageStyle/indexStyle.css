@@ -17,11 +17,21 @@
 
 .Image {
     border-radius: 1000000px;
+    transition: 0.3s;
+}
+
+.Image:hover {
+    transform: scale(1.1);
 }
 
 .Image1 {
     border-radius: 10000000px;
     width: 300px;
+    transition: 0.3s;
+}
+
+.Image1:hover {
+    transform: scale(1.03);
 }
 
 #Introduction {
@@ -49,9 +59,14 @@
     text-align: center;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     border-radius: 25px;
     box-shadow: 5px 5px;
+    transition:0.3s;
+}
+
+.Box1:hover {
+    transform: scale(1.03);
 }
 
 .Box2 {
@@ -61,10 +76,16 @@
     height: 500px;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     border-radius: 25px;
     box-shadow: 5px 5px;
+    transition:0.3s;
 }
+
+.Box2:hover {
+    transform: scale(1.03);
+}
+
 .Box3 {
     width: 400px;
     background-color: #333;
@@ -72,10 +93,16 @@
     height: 500px;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     border-radius: 25px;
     box-shadow: 5px 5px;
+    transition:0.3s;
 }
+
+.Box3:hover {
+    transform: scale(1.03);
+}
+
 .Box4 {
     width: 400px;
     background-color: #333;
@@ -83,9 +110,14 @@
     height: 500px;
     justify-content: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     border-radius: 25px;
     box-shadow: 5px 5px;
+    transition:0.3s;
+}
+
+.Box4:hover {
+    transform: scale(1.03);
 }
 
 .Box_Image {
@@ -115,11 +147,11 @@
     text-decoration: none;
     color: #9CA986;
     font-size: 20px;
+    transition: 0.3s;
 }
 
-.Link_Child:hover {
+.Link_Child:hover{
     color: black;
-    text-decoration: underline;
 }
 
 .Links {
