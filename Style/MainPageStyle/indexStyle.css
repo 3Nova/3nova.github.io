@@ -1,0 +1,297 @@
+* {
+    background-color: #C9DABF;
+    font-family: sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+    align-items: center;
+    justify-content: center;
+}
+
+#Greeting {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 100px;
+    font-size: 27px;
+    color: #9CA986;
+}
+
+.Image {
+    border-radius: 1000000px;
+}
+
+.Image1 {
+    border-radius: 10000000px;
+    width: 300px;
+}
+
+#Introduction {
+    font-size: 23px;
+    margin-left: 24%;
+    color: #5F6F65;
+    width: 50%;
+}
+
+#Introduction a {
+    text-decoration: none;
+}
+
+.Boxes {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Box1 {
+    width: 400px;
+    background-color: #333;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+
+.Box2 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+.Box3 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+.Box4 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+
+.Box_Image {
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+}
+
+.Box_Text {
+    background-color: #333;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.Box_Child {
+    background-color: #333;
+    border-radius: 25px;
+}
+
+.Link {
+   background-color: #333;
+}
+
+.Link_Child {
+    background-color: #333;
+    text-decoration: none;
+    color: #9CA986;
+    font-size: 20px;
+}
+
+.Link_Child:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.Links {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    padding: 14px 16px;
+    float: left;
+    text-align: center;
+}
+
+#Image {
+    float: right;
+    margin-right: 40px;
+    background-color: #333;
+}
+
+.Links a:hover {
+    color: black;
+}
+
+.Links a.active {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+    #Introduction{
+        margin-bottom: 20%;
+    }
+
+    #Image {
+        width: 10px;
+    }
+
+    .Boxes {
+        display: contents;
+    }
+
+    .Box1 {
+        width: 300px;
+        background-color: #333;
+        height: 500px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    
+    .Box2 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box3 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box4 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+
+    .Box_Image {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width:300px) {
+    .Boxes {
+        display: contents;
+    }
+
+    .Box1 {
+        width: 200px;
+        background-color: #333;
+        height: 400px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+    
+    .Box2 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+    .Box3 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+    .Box4 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+
+    .Box_Text {
+    background-color: #333;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    color: #f2f2f2;
+    font-size: 16px;
+    }
+
+    .Box_Image {
+        border-radius: 10px 10px 0px 0px;
+        width: 200px;
+    }
+
+    .Image1 {
+        width: 200px;
+    }
+
+    #Greeting {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 40px;
+    font-size: 27px;
+    color: #9CA986;
+}
+}
+
+@media only screen and (max-height: 1366px) {
+    #Introduction{
+        margin-bottom: 40%;
+    }
+}
