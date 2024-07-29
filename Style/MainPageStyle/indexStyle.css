@@ -61,13 +61,14 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 25px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px;
     transition:0.3s;
 }
 
 .Box1:hover {
-    transform: scale(1.03);
-}
+    transform: scale(1.01);
+    box-shadow: 5px 5px;
+    }
 
 .Box2 {
     width: 400px;
@@ -78,12 +79,13 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 25px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px;
     transition:0.3s;
 }
 
 .Box2:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
+    box-shadow: 5px 5px;
 }
 
 .Box3 {
@@ -95,12 +97,13 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 25px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px;
     transition:0.3s;
 }
 
 .Box3:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
+    box-shadow: 5px 5px;
 }
 
 .Box4 {
@@ -112,12 +115,13 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 25px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px;
     transition:0.3s;
 }
 
 .Box4:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
+    box-shadow: 5px 5px;
 }
 
 .Box_Image {
