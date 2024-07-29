@@ -52,7 +52,7 @@
     margin-top: -500px;
 }
 
-.Box {
+.Box1 {
     width: 400px;
     background-color: #333;
     height: 500px;
@@ -61,13 +61,63 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 25px;
-    box-shadow: 2px 2px;
+    box-shadow: 5px 5px;
     transition:0.3s;
 }
 
-.Box:hover {
-    transform: scale(1.01);
+.Box1:hover {
+    transform: scale(1.03);
+}
+
+.Box2 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 25px;
     box-shadow: 5px 5px;
+    transition:0.3s;
+}
+
+.Box2:hover {
+    transform: scale(1.03);
+}
+
+.Box3 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+    transition:0.3s;
+}
+
+.Box3:hover {
+    transform: scale(1.03);
+}
+
+.Box4 {
+    width: 400px;
+    background-color: #333;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+    transition:0.3s;
+}
+
+.Box4:hover {
+    transform: scale(1.03);
 }
 
 .Box_Image {
@@ -179,7 +229,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .Box {
+    .Box1 {
         width: 300px;
         background-color: #333;
         height: 500px;
@@ -191,6 +241,40 @@
         box-shadow: 5px 5px;
     }
     
+    .Box2 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box3 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box4 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+
     .Box_Image {
         width: 300px;
     }
@@ -210,7 +294,7 @@
         display: contents;
     }
 
-    .Box {
+    .Box1 {
         width: 300px;
         background-color: #333;
         height: 500px;
@@ -222,6 +306,40 @@
         box-shadow: 5px 5px;
     }
     
+    .Box2 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box3 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+    .Box4 {
+        width: 300px;
+        background-color: #333;
+        text-align: center;
+        height: 500px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px;
+    }
+
     .Box_Image {
         width: 300px;
     }
@@ -233,7 +351,7 @@
         display: contents;
     }
 
-    .Box {
+    .Box1 {
         width: 200px;
         background-color: #333;
         height: 400px;
@@ -245,6 +363,40 @@
         box-shadow: 5px 5px;
     }
     
+    .Box2 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+    .Box3 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+    .Box4 {
+        width: 200px;
+        background-color: #333;
+        text-align: center;
+        height: 400px;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+    }
+
     .Box_Text {
     background-color: #333;
     margin-bottom: 50px;
